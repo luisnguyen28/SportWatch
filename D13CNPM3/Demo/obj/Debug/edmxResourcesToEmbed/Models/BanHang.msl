@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BanHangModelStoreContainer" CdmEntityContainer="BanHangEntities">
+    <EntitySetMapping Name="ADMIN">
+      <EntityTypeMapping TypeName="BanHangModel.ADMIN">
+        <MappingFragment StoreEntitySet="ADMIN">
+          <ScalarProperty Name="tai_khoan" ColumnName="tai_khoan" />
+          <ScalarProperty Name="mat_khau" ColumnName="mat_khau" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChiTietHoaDon">
+      <EntityTypeMapping TypeName="BanHangModel.ChiTietHoaDon">
+        <MappingFragment StoreEntitySet="ChiTietHoaDon">
+          <ScalarProperty Name="id_hoa_don" ColumnName="id_hoa_don" />
+          <ScalarProperty Name="id_san_pham" ColumnName="id_san_pham" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DangKiNhanTin">
+      <EntityTypeMapping TypeName="BanHangModel.DangKiNhanTin">
+        <MappingFragment StoreEntitySet="DangKiNhanTin">
+          <ScalarProperty Name="id_dang_ki_nhan_tin" ColumnName="id_dang_ki_nhan_tin" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DanhMucSanPham">
+      <EntityTypeMapping TypeName="BanHangModel.DanhMucSanPham">
+        <MappingFragment StoreEntitySet="DanhMucSanPham">
+          <ScalarProperty Name="id_danh_muc" ColumnName="id_danh_muc" />
+          <ScalarProperty Name="ten_danh_muc" ColumnName="ten_danh_muc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GioHang">
+      <EntityTypeMapping TypeName="BanHangModel.GioHang">
+        <MappingFragment StoreEntitySet="GioHang">
+          <ScalarProperty Name="id_kh" ColumnName="id_kh" />
+          <ScalarProperty Name="id_san_pham" ColumnName="id_san_pham" />
+          <ScalarProperty Name="so_luong" ColumnName="so_luong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HinhThucThanhToan">
+      <EntityTypeMapping TypeName="BanHangModel.HinhThucThanhToan">
+        <MappingFragment StoreEntitySet="HinhThucThanhToan">
+          <ScalarProperty Name="id_thanh_toan" ColumnName="id_thanh_toan" />
+          <ScalarProperty Name="ten_thanh_toan" ColumnName="ten_thanh_toan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDon">
+      <EntityTypeMapping TypeName="BanHangModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="id_hoa_don" ColumnName="id_hoa_don" />
+          <ScalarProperty Name="ngay_hoa_don" ColumnName="ngay_hoa_don" />
+          <ScalarProperty Name="ten_kh" ColumnName="ten_kh" />
+          <ScalarProperty Name="sdt_kh" ColumnName="sdt_kh" />
+          <ScalarProperty Name="email_kh" ColumnName="email_kh" />
+          <ScalarProperty Name="dia_chi_giao_hang" ColumnName="dia_chi_giao_hang" />
+          <ScalarProperty Name="tinh_giao_hang" ColumnName="tinh_giao_hang" />
+          <ScalarProperty Name="huyen_giao_hang" ColumnName="huyen_giao_hang" />
+          <ScalarProperty Name="ghi_chu_giao_hang" ColumnName="ghi_chu_giao_hang" />
+          <ScalarProperty Name="id_van_chuyen" ColumnName="id_van_chuyen" />
+          <ScalarProperty Name="id_thanh_toan" ColumnName="id_thanh_toan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImgGiaoDien">
+      <EntityTypeMapping TypeName="BanHangModel.ImgGiaoDien">
+        <MappingFragment StoreEntitySet="ImgGiaoDien">
+          <ScalarProperty Name="id_img" ColumnName="id_img" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="mo_ta_img" ColumnName="mo_ta_img" />
+          <ScalarProperty Name="dieu_huong_img" ColumnName="dieu_huong_img" />
+          <ScalarProperty Name="loai_img" ColumnName="loai_img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ImgSanPham">
+      <EntityTypeMapping TypeName="BanHangModel.ImgSanPham">
+        <MappingFragment StoreEntitySet="ImgSanPham">
+          <ScalarProperty Name="id_img" ColumnName="id_img" />
+          <ScalarProperty Name="id_san_pham" ColumnName="id_san_pham" />
+          <ScalarProperty Name="img" ColumnName="img" />
+          <ScalarProperty Name="mo_ta_img" ColumnName="mo_ta_img" />
+          <ScalarProperty Name="main" ColumnName="main" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHang">
+      <EntityTypeMapping TypeName="BanHangModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="id_kh" ColumnName="id_kh" />
+          <ScalarProperty Name="username_kh" ColumnName="username_kh" />
+          <ScalarProperty Name="password_kh" ColumnName="password_kh" />
+          <ScalarProperty Name="ten_kh" ColumnName="ten_kh" />
+          <ScalarProperty Name="sdt_kh" ColumnName="sdt_kh" />
+          <ScalarProperty Name="email_kh" ColumnName="email_kh" />
+          <ScalarProperty Name="dia_chi_kh" ColumnName="dia_chi_kh" />
+          <ScalarProperty Name="tinh_kh" ColumnName="tinh_kh" />
+          <ScalarProperty Name="huyen_kh" ColumnName="huyen_kh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPham">
+      <EntityTypeMapping TypeName="BanHangModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="id_san_pham" ColumnName="id_san_pham" />
+          <ScalarProperty Name="id_danh_muc" ColumnName="id_danh_muc" />
+          <ScalarProperty Name="ten_san_pham" ColumnName="ten_san_pham" />
+          <ScalarProperty Name="gia_san_pham" ColumnName="gia_san_pham" />
+          <ScalarProperty Name="phan_tram_khuyen_mai" ColumnName="phan_tram_khuyen_mai" />
+          <ScalarProperty Name="so_luong_ton_kho" ColumnName="so_luong_ton_kho" />
+          <ScalarProperty Name="mo_ta_san_pham" ColumnName="mo_ta_san_pham" />
+          <ScalarProperty Name="gioi_tinh" ColumnName="gioi_tinh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ThuongHieu">
+      <EntityTypeMapping TypeName="BanHangModel.ThuongHieu">
+        <MappingFragment StoreEntitySet="ThuongHieu">
+          <ScalarProperty Name="id_thuong_hieu" ColumnName="id_thuong_hieu" />
+          <ScalarProperty Name="ten_thuong_hieu" ColumnName="ten_thuong_hieu" />
+          <ScalarProperty Name="img_thuong_hieu" ColumnName="img_thuong_hieu" />
+          <ScalarProperty Name="dieu_huong_thuong_hieu" ColumnName="dieu_huong_thuong_hieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VanChuyen">
+      <EntityTypeMapping TypeName="BanHangModel.VanChuyen">
+        <MappingFragment StoreEntitySet="VanChuyen">
+          <ScalarProperty Name="id_van_chuyen" ColumnName="id_van_chuyen" />
+          <ScalarProperty Name="ten_van_chuyen" ColumnName="ten_van_chuyen" />
+          <ScalarProperty Name="phi_van_chuyen" ColumnName="phi_van_chuyen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="PhanCapDanhMuc" TypeName="BanHangModel.PhanCapDanhMuc" StoreEntitySet="PhanCapDanhMuc">
+      <EndProperty Name="DanhMucSanPham">
+        <ScalarProperty Name="id_danh_muc" ColumnName="id_danh_muc_cha" />
+      </EndProperty>
+      <EndProperty Name="DanhMucSanPham1">
+        <ScalarProperty Name="id_danh_muc" ColumnName="id_danh_muc_con" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

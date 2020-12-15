@@ -1,0 +1,190 @@
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\Demo.dll.config
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\Demo.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\Demo.pdb
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csc.exe
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csc.exe.config
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csc.rsp
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csi.exe
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csi.exe.config
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\csi.rsp
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.AppContext.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Collections.Immutable.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Console.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.Process.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.IO.Compression.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.IO.Pipes.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Reflection.Metadata.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.AccessControl.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Claims.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Threading.Thread.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.ValueTuple.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\vbc.exe
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\vbc.exe.config
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\vbc.rsp
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe.config
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\obj\Debug\Demo.csproj.CopyComplete
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\obj\Debug\Demo.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\obj\Debug\Demo.pdb
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\EntityFramework.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\EntityFramework.SqlServer.dll
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\EntityFramework.xml
+E:\Giang Day\2020-2021\LTWeb Nâng cao\D13CNPM3\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\Demo.dll.config
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\Demo.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\Demo.pdb
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.csproj.CopyComplete
+C:\Users\PC\Documents\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+C:\Users\PC\Documents\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.dll
+C:\Users\PC\Documents\D13CNPM3\D13CNPM3\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\obj\Debug\Demo.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\obj\Debug\Demo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\obj\Debug\Demo.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\obj\Debug\Demo.pdb
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\Demo.dll.config
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\Demo.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\Demo.pdb
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Web\D13CNPM3\Demo\obj\Debug\Demo.csproj.CopyComplete

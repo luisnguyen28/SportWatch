@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLBHModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChiTiet_DonHang">
+    <Key>
+      <PropertyRef Name="ID_CTDH" />
+    </Key>
+    <Property Name="ID_CTDH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_DH" Type="Int32" />
+    <Property Name="MaSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GiaBan" Type="Int32" />
+    <Property Name="SoLuong" Type="Int32" />
+    <NavigationProperty Name="DonHang" Relationship="Self.FK_ChiTiet_DonHang_DonHang" FromRole="ChiTiet_DonHang" ToRole="DonHang" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_ChiTiet_DonHang_SanPham" FromRole="ChiTiet_DonHang" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="CTKM">
+    <Key>
+      <PropertyRef Name="ID_CTKM" />
+    </Key>
+    <Property Name="ID_CTKM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MaSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ID_KM" Type="Int32" />
+    <NavigationProperty Name="KhuyenMai" Relationship="Self.FK_CTKM_KhuyenMai" FromRole="CTKM" ToRole="KhuyenMai" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_CTKM_SanPham" FromRole="CTKM" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="DonHang">
+    <Key>
+      <PropertyRef Name="ID_DH" />
+    </Key>
+    <Property Name="ID_DH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ThoiGian" Type="DateTime" Precision="3" />
+    <Property Name="TenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DiaChi" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="TrangThai" Type="Int32" />
+    <NavigationProperty Name="ChiTiet_DonHang" Relationship="Self.FK_ChiTiet_DonHang_DonHang" FromRole="DonHang" ToRole="ChiTiet_DonHang" />
+  </EntityType>
+  <EntityType Name="KhuyenMai">
+    <Key>
+      <PropertyRef Name="ID_KM" />
+    </Key>
+    <Property Name="ID_KM" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TGBD" Type="DateTime" Precision="3" />
+    <Property Name="TGKT" Type="DateTime" Precision="3" />
+    <Property Name="Discount" Type="Int32" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CTKM" Relationship="Self.FK_CTKM_KhuyenMai" FromRole="KhuyenMai" ToRole="CTKM" />
+  </EntityType>
+  <EntityType Name="LoaiSP">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenLoai" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_SanPham_LoaiSP" FromRole="LoaiSP" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="Media">
+    <Key>
+      <PropertyRef Name="ID_Media" />
+    </Key>
+    <Property Name="ID_Media" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Url" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Main" Type="Boolean" />
+    <Property Name="MaSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_Media_SanPham" FromRole="Media" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="NhaCC">
+    <Key>
+      <PropertyRef Name="MaNCC" />
+    </Key>
+    <Property Name="MaNCC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenNCC" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="SanPham" Relationship="Self.FK_SanPham_NhaCC" FromRole="NhaCC" ToRole="SanPham" />
+  </EntityType>
+  <EntityType Name="SanPham">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TenSP" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MoTa" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ChiTiet" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="GiaBan" Type="Int32" />
+    <Property Name="GiaKM" Type="Int32" />
+    <Property Name="MaLoai" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MaNCC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ChiTiet_DonHang" Relationship="Self.FK_ChiTiet_DonHang_SanPham" FromRole="SanPham" ToRole="ChiTiet_DonHang" />
+    <NavigationProperty Name="CTKM" Relationship="Self.FK_CTKM_SanPham" FromRole="SanPham" ToRole="CTKM" />
+    <NavigationProperty Name="LoaiSP" Relationship="Self.FK_SanPham_LoaiSP" FromRole="SanPham" ToRole="LoaiSP" />
+    <NavigationProperty Name="Media" Relationship="Self.FK_Media_SanPham" FromRole="SanPham" ToRole="Media" />
+    <NavigationProperty Name="NhaCC" Relationship="Self.FK_SanPham_NhaCC" FromRole="SanPham" ToRole="NhaCC" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PassWord" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="role" Type="Int32" />
+  </EntityType>
+  <Association Name="FK_ChiTiet_DonHang_DonHang">
+    <End Role="DonHang" Type="Self.DonHang" Multiplicity="0..1" />
+    <End Role="ChiTiet_DonHang" Type="Self.ChiTiet_DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DonHang">
+        <PropertyRef Name="ID_DH" />
+      </Principal>
+      <Dependent Role="ChiTiet_DonHang">
+        <PropertyRef Name="ID_DH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ChiTiet_DonHang_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="0..1" />
+    <End Role="ChiTiet_DonHang" Type="Self.ChiTiet_DonHang" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="MaSP" />
+      </Principal>
+      <Dependent Role="ChiTiet_DonHang">
+        <PropertyRef Name="MaSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTKM_KhuyenMai">
+    <End Role="KhuyenMai" Type="Self.KhuyenMai" Multiplicity="0..1" />
+    <End Role="CTKM" Type="Self.CTKM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhuyenMai">
+        <PropertyRef Name="ID_KM" />
+      </Principal>
+      <Dependent Role="CTKM">
+        <PropertyRef Name="ID_KM" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTKM_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="0..1" />
+    <End Role="CTKM" Type="Self.CTKM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="MaSP" />
+      </Principal>
+      <Dependent Role="CTKM">
+        <PropertyRef Name="MaSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_LoaiSP">
+    <End Role="LoaiSP" Type="Self.LoaiSP" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiSP">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Media_SanPham">
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Media" Type="Self.Media" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPham">
+        <PropertyRef Name="MaSP" />
+      </Principal>
+      <Dependent Role="Media">
+        <PropertyRef Name="MaSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPham_NhaCC">
+    <End Role="NhaCC" Type="Self.NhaCC" Multiplicity="0..1" />
+    <End Role="SanPham" Type="Self.SanPham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NhaCC">
+        <PropertyRef Name="MaNCC" />
+      </Principal>
+      <Dependent Role="SanPham">
+        <PropertyRef Name="MaNCC" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLBHEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChiTiet_DonHang" EntityType="Self.ChiTiet_DonHang" />
+    <EntitySet Name="CTKM" EntityType="Self.CTKM" />
+    <EntitySet Name="DonHang" EntityType="Self.DonHang" />
+    <EntitySet Name="KhuyenMai" EntityType="Self.KhuyenMai" />
+    <EntitySet Name="LoaiSP" EntityType="Self.LoaiSP" />
+    <EntitySet Name="Media" EntityType="Self.Media" />
+    <EntitySet Name="NhaCC" EntityType="Self.NhaCC" />
+    <EntitySet Name="SanPham" EntityType="Self.SanPham" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_ChiTiet_DonHang_DonHang" Association="Self.FK_ChiTiet_DonHang_DonHang">
+      <End Role="DonHang" EntitySet="DonHang" />
+      <End Role="ChiTiet_DonHang" EntitySet="ChiTiet_DonHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ChiTiet_DonHang_SanPham" Association="Self.FK_ChiTiet_DonHang_SanPham">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="ChiTiet_DonHang" EntitySet="ChiTiet_DonHang" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTKM_KhuyenMai" Association="Self.FK_CTKM_KhuyenMai">
+      <End Role="KhuyenMai" EntitySet="KhuyenMai" />
+      <End Role="CTKM" EntitySet="CTKM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTKM_SanPham" Association="Self.FK_CTKM_SanPham">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="CTKM" EntitySet="CTKM" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_LoaiSP" Association="Self.FK_SanPham_LoaiSP">
+      <End Role="LoaiSP" EntitySet="LoaiSP" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Media_SanPham" Association="Self.FK_Media_SanPham">
+      <End Role="SanPham" EntitySet="SanPham" />
+      <End Role="Media" EntitySet="Media" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPham_NhaCC" Association="Self.FK_SanPham_NhaCC">
+      <End Role="NhaCC" EntitySet="NhaCC" />
+      <End Role="SanPham" EntitySet="SanPham" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(QLBHModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(QLBHModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>
